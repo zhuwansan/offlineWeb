@@ -4,7 +4,7 @@
     function save (){
         var name =  $('#name').val();
         var content = $('#content').val();
-        if(name==''){
+        if(name===''){
             window.location.href="index.html";
             return false;
         }else{
